@@ -1,0 +1,33 @@
+:root {
+    --white: white;
+    --lightgray: #f8f9fa;
+    --midgray: #e5e5e5;
+    --darkgray: #5b5858;
+    --blue: #1c72e7;
+    --darkblue: #12283f;
+    --darkerblue: #1e1e1e;
+    --datablue: #3e76d3;
+    --green: #1a8655;
+    --yellow: #ffc107;
+    --orange: #f26551;
+    --red: #dc3544;
+    --notify: #ff8f00;
+}
+
+/* LAYOUT ------------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
