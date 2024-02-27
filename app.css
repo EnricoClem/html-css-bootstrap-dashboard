@@ -122,6 +122,28 @@ img {
     background-color: var(--lightgray);
 }
 
+.class-avatar {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.table-data {
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    margin: 0;
+}
+
+.table-data button {
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+
+.list-row {
+    border: none;
+    border-bottom: 1px solid var(--midgray);
+}
+
 
 
 
