@@ -37,8 +37,21 @@ img {
 .navbar {
     background-color: var(--white);
     height: 70px;
-    width: 100vw;
+    padding: 0 10px;
 }
+
+.logo-mobile {
+    width: 60px;
+}
+
+.toolbar {
+    color: var(--darkgray);
+}
+
+.fa-bell {
+    color: var(--notify);
+}
+
 
 
 /* SIDEBAR ----------------------------------- */
@@ -58,8 +71,7 @@ img {
 
 .sidebar i {
     font-size: 18px;
-    padding: 12px;
-    width: 50px;
+    padding: 9px;
 }
 
 .sidebar p {
@@ -80,14 +92,10 @@ img {
 
 /* MEDIA QUERI ---------------------------- */
 
-@media (min-width: 960px) {
-    
-    .sidebar p {
-        display: block;
-    }
+@media (min-width: 992px) {
 
     .sidebar {
-        min-width: 150px;
+        min-width: 140px;
     }
 
 }

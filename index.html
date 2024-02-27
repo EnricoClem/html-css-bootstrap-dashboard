@@ -11,16 +11,27 @@
     <div class="vh-100 d-flex flex-column">
 
         <!-- HEADER navbar -->
-        <header class="navbar">
-            <div class="d-flex align-items-center gap-3">
-                <div class="logo">
+        <header class="navbar 100-vw">
+            <div class="d-flex align-items-center w-100 gap-3">
+                <div class="d-flex align-items-center">
                     <img class="d-none d-lg-block" src="./img/logo.svg" alt="">
-                    <img class="d-block d-lg-none" src="./img/mobile-logo.png" alt="">
+                    <img class="d-block d-lg-none logo-mobile" src="./img/mobile-logo.png" alt="">
                 </div>
-                <div class="flex-grow-1">
-                    <input type="search" placeholder="Prova a cercare: Lezioni di Laravel">
-                </div>
-                <div class=""></div>
+                <input class="flex-grow-1" type="search" placeholder="Prova a cercare: Lezioni di Laravel">
+                <ul class="toolbar d-flex gap-4">
+                    <li class="d-none d-lg-flex align-self-center">
+                        <i class="fa-solid fa-list-ul"></i>
+                    </li>
+                    <li class="d-none d-lg-flex align-self-center">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </li>
+                    <li class="d-none d-lg-flex align-self-center">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </li>
+                    <li class="d-flex align-self-center">
+                        <i class="fa-solid fa-bell"></i>
+                    </li>
+                </ul>
             </div>
         </header>
 
@@ -33,25 +44,25 @@
                     <li>
                         <a href="#">
                             <i class="fa-solid fa-house"></i>
-                            <p>Home</p>
+                            <p class="d-none d-lg-block">Home</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="fa-solid fa-chart-simple"></i>
-                            <p>Stats</p>
+                            <p class="d-none d-lg-block">Stats</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="fa-solid fa-signal"></i>
-                            <p>Signals</p>
+                            <p class="d-none d-lg-block">Signals</p>
                         </a>
                     </li>
                     <li class="mt-auto">
                         <a href="#">
                             <i class="fa-solid fa-gear"></i>
-                            <p>Admin</p>
+                            <p class="d-none d-lg-block">Admin</p>
                         </a>
                     </li>
                 </ul>
