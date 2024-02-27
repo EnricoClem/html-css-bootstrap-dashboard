@@ -4,6 +4,7 @@
     --midgray: #e5e5e5;
     --darkgray: #5b5858;
     --blue: #1c72e7;
+    --midblue: #165bba;
     --darkblue: #051e34;
     --green: #1a8655;
     --yellow: #ffc107;
@@ -107,6 +108,18 @@ img {
 .student-info {
     background-color: var(--blue);
     color: var(--white);
+}
+
+.add-student {
+    height: fit-content;
+}
+
+.head-badge {
+    background-color: var(--midblue);
+}
+
+.data-blocks {
+    background-color: var(--lightgray);
 }
 
 
