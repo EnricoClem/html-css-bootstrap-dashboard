@@ -104,8 +104,9 @@ img {
 
 /* MAIN ----------------------------------- */
 
-.main-data {
+.student-info {
     background-color: var(--blue);
+    color: var(--white);
 }
 
 
