@@ -4,12 +4,9 @@
     --midgray: #e5e5e5;
     --darkgray: #5b5858;
     --blue: #1c72e7;
-    --darkblue: #12283f;
-    --darkerblue: #1e1e1e;
-    --datablue: #3e76d3;
+    --darkblue: #051e34;
     --green: #1a8655;
     --yellow: #ffc107;
-    --orange: #f26551;
     --red: #dc3544;
     --notify: #ff8f00;
 }
@@ -27,6 +24,7 @@ ol,
 menu {
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 
 img {
@@ -48,9 +46,8 @@ img {
 .sidebar {
     background-color: var(--darkblue);
     color: var(--white);
-    width: 80px;
-    padding-top: 22px;
-    height: calc(100vh - 70px);
+    background-image: url(./img/sidebar-bg.png);
+    width: 70px;
 }
 
 .sidebar a {
@@ -60,9 +57,9 @@ img {
 }
 
 .sidebar i {
-    font-size: 20px;
-    padding: 15px;
-    width: 60px;
+    font-size: 18px;
+    padding: 12px;
+    width: 50px;
 }
 
 .sidebar p {
